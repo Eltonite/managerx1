@@ -1,4 +1,4 @@
-import { useMoralisWeb3Api, useNativeBalance } from "react-moralis"
+import { useNativeBalance } from "react-moralis"
 
 
 function Balances() {

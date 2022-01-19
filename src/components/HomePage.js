@@ -1,10 +1,11 @@
 import Navbar from "./Navbar"
+import SafeBoxAvax from "./SafeBoxAvax"
 
 function HomePage() {
   return (
     <div className='bg-gradient-to-r from-red-400 to-blue-900 h-screen w-full text-center'>
     <Navbar />
-    <h1>You are now logged in!</h1>
+    <SafeBoxAvax />
   </div>
   )
 }
